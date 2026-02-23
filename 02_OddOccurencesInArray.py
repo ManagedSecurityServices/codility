@@ -75,7 +75,6 @@ class TestOddOccurencesInArray(unittest.TestCase):
     @staticmethod
     def gen_array(L, odd):
         """Generate a list of sample data: random integers in pairs.
-
         :param L: the length of the list is double this int
         :param odd: the odd integer out
 
@@ -98,7 +97,6 @@ class TestOddOccurencesInArray(unittest.TestCase):
     def test_example1(self):
         arr = [9, 3, 9, 3, 9, 7, 9]
         self.assertEqual(7, solution(arr))
-
     def test_simple1(self):
         """simple test n=5"""
         arr = self.gen_array(5, 4)

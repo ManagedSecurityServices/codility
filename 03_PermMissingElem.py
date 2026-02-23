@@ -51,6 +51,8 @@ def solution(A):
     # Why 2? Add 1 because the length of the given array is missing a number.
     # Add another 1 because the range function stops one before the max number.
     full_array = range(1, len(A) + 2)
+    # print(full_array)
+    # print(sum(full_array))
     return sum(full_array) - sum(A)
 
 
